@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2020-10-19T17:19:28.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" version="13.8.0" etag="uWvI5rNF6nb0-UaGHq4H" type="github"><diagram id="Toq41rLpcuiT5V5RvbrY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-20T01:22:19.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="MCJGydBvcNGpstl3AjRc" version="13.8.0" type="github">
+  <diagram id="Toq41rLpcuiT5V5RvbrY" name="Page-1">
+    <mxGraphModel dx="1965" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WNK4Gc3nmL-LzoBDKYpZ-1" target="WNK4Gc3nmL-LzoBDKYpZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-1" value="App Opens" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WNK4Gc3nmL-LzoBDKYpZ-2" target="WNK4Gc3nmL-LzoBDKYpZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-2" value="Check if internet is available" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-4" value="Is Internet?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WNK4Gc3nmL-LzoBDKYpZ-6" target="WNK4Gc3nmL-LzoBDKYpZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-6" value="&lt;br&gt;query&lt;br&gt;previous&lt;br&gt;news" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="245" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WNK4Gc3nmL-LzoBDKYpZ-8" target="WNK4Gc3nmL-LzoBDKYpZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-8" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WNK4Gc3nmL-LzoBDKYpZ-10" target="WNK4Gc3nmL-LzoBDKYpZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-10" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WNK4Gc3nmL-LzoBDKYpZ-11" target="WNK4Gc3nmL-LzoBDKYpZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-11" value="Download from Service" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="380" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-13" value="Should always load from network on open&lt;br&gt;&amp;nbsp;then cache in db while still in app &lt;br&gt;or a pull to refresh happens.&lt;br&gt;&lt;br&gt;If there is no internet, then pull from cached db.&lt;br&gt;Delete old records after successfully pulling new." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="557" y="10" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WNK4Gc3nmL-LzoBDKYpZ-14" target="WNK4Gc3nmL-LzoBDKYpZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-14" value="Display news" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="265" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-16" value="Download and load images&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="265" y="470" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WNK4Gc3nmL-LzoBDKYpZ-19" target="WNK4Gc3nmL-LzoBDKYpZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-19" value="insert news" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="105" y="515" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WNK4Gc3nmL-LzoBDKYpZ-20" target="WNK4Gc3nmL-LzoBDKYpZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WNK4Gc3nmL-LzoBDKYpZ-20" value="&lt;br&gt;delete previous news" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="105" y="610" width="70" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
